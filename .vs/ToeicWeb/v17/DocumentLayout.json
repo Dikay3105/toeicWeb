@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\huhuh\\source\\repos\\ToeicWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{59B66AE7-31E5-42FE-8CAF-D2F222D6D307}|toeicweb.client\\toeicweb.client.esproj|c:\\users\\huhuh\\source\\repos\\toeicweb\\toeicweb.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}|",
+      "RelativeMoniker": "D:0:0:{59B66AE7-31E5-42FE-8CAF-D2F222D6D307}|toeicweb.client\\toeicweb.client.esproj|solutionrelative:toeicweb.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.jsx",
+              "DocumentMoniker": "C:\\Users\\huhuh\\source\\repos\\ToeicWeb\\toeicweb.client\\src\\App.jsx",
+              "RelativeDocumentMoniker": "toeicweb.client\\src\\App.jsx",
+              "ToolTip": "C:\\Users\\huhuh\\source\\repos\\ToeicWeb\\toeicweb.client\\src\\App.jsx",
+              "RelativeToolTip": "toeicweb.client\\src\\App.jsx",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwC0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-09-16T08:59:21.799Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

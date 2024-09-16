@@ -1,0 +1,21 @@
+.header-container {
+    position: sticky;
+    top: 0;
+    background-color: #fff; // Set background to prevent content bleeding through
+    z-index: 1000; // Ensure it stays on top
+    border-bottom: 1px solid #ddd;
+
+    .upper-header {
+        height: 5vh;
+        align-items: center;
+
+        .header-banner {
+            font-size: 20px;
+            font-weight: 400;
+        }
+    }
+
+    .main-header {
+        // Optional: Add a border to define the header area
+    }
+}
