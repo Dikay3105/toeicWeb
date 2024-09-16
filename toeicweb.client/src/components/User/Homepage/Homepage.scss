@@ -1,0 +1,100 @@
+.homepage-container {
+    padding-bottom: 5vh;
+
+    .slider-container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 20vh;
+        padding-right: 20vh;
+        display: flex;
+
+        // Media query cho các màn hình nhỏ hơn
+        @media (max-width: 1200px) {
+            padding-left: 15vh;
+            padding-right: 15vh;
+        }
+
+        @media (max-width: 992px) {
+            padding-left: 10vh;
+            padding-right: 10vh;
+        }
+
+        @media (max-width: 768px) {
+            padding-top: 30px;
+            padding-left: 5vh;
+            padding-right: 5vh;
+            flex-direction: column;
+            align-items: center;
+            gap: 5vh;
+        }
+
+        @media (max-width: 576px) {
+            padding-top: 20px;
+            padding-left: 2vh;
+            padding-right: 2vh;
+            flex-direction: column;
+            align-items: center;
+            gap: 5vh;
+        }
+
+        .ads-slider {
+            width: 30%;
+            display: flex;
+            flex-direction: column; // Đặt các phần tử theo chiều dọc
+            align-items: center; // Căn giữa theo chiều ngang
+            justify-content: center; // Căn giữa theo chiều dọc
+            text-align: center;
+        }
+
+        .slider {
+            width: 60%; // Tùy chỉnh kích thước theo kích thước màn hình
+            height: 70%;
+
+            @media (max-width: 768px) {
+                width: 90%;
+            }
+
+            @media (max-width: 576px) {
+                width: 90%;
+            }
+        }
+    }
+
+    .new-test-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); // 4 cột
+        gap: 10px; // Khoảng cách giữa các ảnh
+        padding-left: 10vh;
+        padding-right: 10vh;
+        padding-bottom: 5vh;
+        margin: auto;
+        justify-items: center;
+        background-color: rgb(235, 230, 230);
+
+        // Media queries để responsive
+        @media (max-width: 1200px) {
+            grid-template-columns: repeat(3, 1fr); // 3 cột
+        }
+
+        @media (max-width: 992px) {
+            grid-template-columns: repeat(2, 1fr); // 2 cột
+        }
+
+        @media (max-width: 768px) {
+            grid-template-columns: 1fr; // 1 cột
+        }
+
+        .card {
+            margin-top: 50px;
+        }
+    }
+}
+
+.slick-next,
+.slick-prev {
+    display: none !important;
+}
+
+.bg-body-tertiary {
+    height: 10vh;
+}
