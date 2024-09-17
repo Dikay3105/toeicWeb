@@ -69,3 +69,8 @@ C:\Users\PC\source\repos\webToeic\ToeicWeb.Server\obj\Debug\net8.0\refint\ToeicW
 C:\Users\PC\source\repos\webToeic\ToeicWeb.Server\obj\Debug\net8.0\ToeicWeb.Server.pdb
 C:\Users\PC\source\repos\webToeic\ToeicWeb.Server\obj\Debug\net8.0\ToeicWeb.Server.genruntimeconfig.cache
 C:\Users\PC\source\repos\webToeic\ToeicWeb.Server\obj\Debug\net8.0\ref\ToeicWeb.Server.dll
+C:\Users\PC\source\repos\webToeic\ToeicWeb.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\PC\source\repos\webToeic\ToeicWeb.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\PC\source\repos\webToeic\ToeicWeb.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\PC\source\repos\webToeic\ToeicWeb.Server\bin\Debug\net8.0\MySqlConnector.dll
+C:\Users\PC\source\repos\webToeic\ToeicWeb.Server\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
