@@ -2,7 +2,8 @@ using Microsoft.EntityFrameworkCore;
 using ToeicWeb.Server.AuthService.Data;
 using ToeicWeb.Server.AuthService.Services;
 using ToeicWeb.Server.ExamService.Data;
-using ToeicWeb.Server.ExamService.Services;
+using ToeicWeb.Server.ExamService.Interfaces;
+using ToeicWeb.Server.ExamService.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,8 +23,14 @@ builder.Services.AddDbContext<UserDbContext>(options =>
     options.UseMySql(builder.Configuration.GetConnectionString("UserServiceConnection"),
     new MySqlServerVersion(new Version(8, 0, 21))));
 
-builder.Services.AddScoped<TestService>();
 builder.Services.AddScoped<UserService>();
+builder.Services.AddScoped<IQuestionRepository, QuestionRepository>();
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.PropertyNamingPolicy = null;
+    });
+
 
 var app = builder.Build();
 

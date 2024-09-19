@@ -25,7 +25,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="ExamService\Repositories\" />
     <Folder Include="AuthService\Repositories\" />
   </ItemGroup>
 
