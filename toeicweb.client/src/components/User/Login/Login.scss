@@ -1,0 +1,26 @@
+.password-input-container {
+    position: relative;
+    width: 100%;
+}
+
+.password-input {
+    width: 100%;
+    padding-right: 2.5rem;
+    box-sizing: border-box;
+}
+
+.toggle-password-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.icon-animate {
+    transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+}
+
+.toggle-password-btn:hover .icon-animate {
+    transform: scale(1.2);
+    opacity: 0.8;
+}
