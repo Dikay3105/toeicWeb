@@ -2,8 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using ToeicWeb.Server.AuthService.Data;
 using ToeicWeb.Server.AuthService.Services;
 using ToeicWeb.Server.ExamService.Data;
-using ToeicWeb.Server.ExamService.Interfaces;
-using ToeicWeb.Server.ExamService.Repository;
+using ToeicWeb.Server.ExamService.Repository.QuestionRepository;
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -1,8 +1,7 @@
 ﻿using ToeicWeb.Server.ExamService.Data;
-using ToeicWeb.Server.ExamService.Interfaces;
 using ToeicWeb.Server.ExamService.Models;
 
-namespace ToeicWeb.Server.ExamService.Repository
+namespace ToeicWeb.Server.ExamService.Repository.QuestionRepository
 {
     public class QuestionRepository : IQuestionRepository
     {
