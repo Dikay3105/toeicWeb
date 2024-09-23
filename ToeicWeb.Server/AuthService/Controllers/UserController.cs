@@ -1,0 +1,180 @@
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
+using ToeicWeb.Server.AuthService.Data;
+using ToeicWeb.Server.AuthService.Dto;
+using ToeicWeb.Server.AuthService.Interfaces;
+using ToeicWeb.Server.AuthService.Models;
+
+namespace ToeicWeb.Server.AuthService.Controllers
+{
+    [ApiController]
+    [Route("api/[controller]")]
+    public class UserController : ControllerBase
+    {
+        private readonly IUserRepository _userRepository;
+        private readonly AuthDbContext _context;
+        private readonly IMapper _mapper;
+
+        public UserController(IUserRepository userRepository, AuthDbContext context, IMapper mapper)
+        {
+            _userRepository = userRepository;
+            _context = context;
+            _mapper = mapper;
+        }
+
+        // Get all users
+        [HttpGet]
+        public ActionResult<IEnumerable<User>> GetUsers()
+        {
+            var users = _mapper.Map<List<UserDto>>(_userRepository.GetUsers());
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            return Ok(new
+            {
+                EC = 0,
+                EM = "Get all users success",
+                DT = users
+            });
+        }
+
+        // Get user by ID
+        [HttpGet("{id}")]
+        [ProducesResponseType(typeof(UserDto), 200)]
+        [ProducesResponseType(404)]
+        public async Task<ActionResult<UserDto>> GetUserById(int id)
+        {
+            var user = await _userRepository.GetUserById(id);
+            if (user == null)
+            {
+                return NotFound(new
+                {
+                    EC = -1,  // Error Code
+                    EM = $"User with ID {id} not found"
+                });
+            }
+
+            var userDto = _mapper.Map<UserDto>(user);
+
+            return Ok(new
+            {
+                EC = 0,  // Error Code
+                EM = "User found",
+                DT = userDto
+            });
+        }
+
+
+        // Add new user
+        [HttpPost]
+        public IActionResult AddUser([FromBody] User newUser)
+        {
+            if (newUser == null)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var checkUsername = _userRepository.GetUsers()
+                .Where(u => u.Username.Trim().ToUpper() == newUser.Username.Trim().ToUpper()
+               )
+                .FirstOrDefault();
+
+            if (checkUsername != null)
+            {
+                ModelState.AddModelError("", "Username already used");
+                return StatusCode(422, new
+                {
+                    EC = -1,
+                    EM = ModelState
+
+                });
+            }
+
+            var checkEmail = _userRepository.GetUsers()
+                            .Where(u => u.Email.Trim().ToUpper() == newUser.Email.Trim().ToUpper())
+                            .FirstOrDefault();
+
+            if (checkEmail != null)
+            {
+                ModelState.AddModelError("", "Email already used");
+                return StatusCode(422, new
+                {
+                    EC = -1,
+                    EM = ModelState
+
+                });
+            }
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var userMap = _mapper.Map<User>(newUser);
+            if (!_userRepository.AddUser(newUser))
+            {
+                ModelState.AddModelError("", "Something went wrong when saving new user");
+                return StatusCode(422, new
+                {
+                    EC = -1,
+                    EM = ModelState
+
+                });
+            }
+            return Ok(new
+            {
+                EC = 0,
+                EM = "Successfully added user"
+            });
+        }
+
+        // Delete user by ID
+        //[HttpDelete("{id}")]
+        //public async Task<IActionResult> DeleteUser(int id)
+        //{
+        //    var user = await _userRepository.GetUserById(id);
+        //    if (user == null)
+        //    {
+        //        return NotFound(new
+        //        {
+        //            EC = -1,  // Error Code
+        //            EM = $"User with ID {id} not found"
+        //        });
+        //    }
+
+        //    var result = await _userRepository.DeleteUser(id);
+        //    return Ok(new
+        //    {
+        //        EC = 0,
+        //        EM = result
+        //    });
+        //}
+
+        // Lấy roles của user dựa trên UserID
+        [HttpGet("roles/{userId}")]
+        public async Task<IActionResult> GetRolesByUserId(int userId)
+        {
+            var roles = await _userRepository.GetRolesByUserId(userId);
+
+            if (roles == null || !roles.Any())
+            {
+                return NotFound(new
+                {
+                    EC = -1,
+                    EM = "Roles not found for this user"
+                });
+            }
+
+            var rolesDto = _mapper.Map<List<Role>>(roles);
+
+            return Ok(new
+            {
+                EC = 0,
+                EM = "Roles retrieved successfully",
+                DT = rolesDto
+            });
+        }
+    }
+}

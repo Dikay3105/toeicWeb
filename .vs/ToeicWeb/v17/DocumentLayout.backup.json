@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\webToeic\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{59B66AE7-31E5-42FE-8CAF-D2F222D6D307}|toeicweb.client\\toeicweb.client.esproj|c:\\users\\pc\\source\\repos\\webtoeic\\toeicweb.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}|",
-      "RelativeMoniker": "D:0:0:{59B66AE7-31E5-42FE-8CAF-D2F222D6D307}|toeicweb.client\\toeicweb.client.esproj|solutionrelative:toeicweb.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}|"
+      "AbsoluteMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|c:\\users\\pc\\source\\repos\\webtoeic\\toeicweb.server\\authservice\\models\\signupmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|solutionrelative:toeicweb.server\\authservice\\models\\signupmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|c:\\users\\pc\\source\\repos\\webtoeic\\toeicweb.server\\authservice\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|solutionrelative:toeicweb.server\\authservice\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|c:\\users\\pc\\source\\repos\\webtoeic\\toeicweb.server\\authservice\\repository\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|solutionrelative:toeicweb.server\\authservice\\repository\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|c:\\users\\pc\\source\\repos\\webtoeic\\toeicweb.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|solutionrelative:toeicweb.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|c:\\users\\pc\\source\\repos\\webtoeic\\toeicweb.server\\authservice\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|solutionrelative:toeicweb.server\\authservice\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|c:\\users\\pc\\source\\repos\\webtoeic\\toeicweb.server\\authservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|solutionrelative:toeicweb.server\\authservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|c:\\users\\pc\\source\\repos\\webtoeic\\toeicweb.server\\authservice\\interfaces\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|solutionrelative:toeicweb.server\\authservice\\interfaces\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|c:\\users\\pc\\source\\repos\\webtoeic\\toeicweb.server\\authservice\\helper\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|solutionrelative:toeicweb.server\\authservice\\helper\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|c:\\users\\pc\\source\\repos\\webtoeic\\toeicweb.server\\authservice\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|solutionrelative:toeicweb.server\\authservice\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,19 +51,119 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "App.jsx",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\webToeic\\toeicweb.client\\src\\App.jsx",
-              "RelativeDocumentMoniker": "toeicweb.client\\src\\App.jsx",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\webToeic\\toeicweb.client\\src\\App.jsx",
-              "RelativeToolTip": "toeicweb.client\\src\\App.jsx",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwC0AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-09-16T08:59:21.799Z",
+              "Title": "SignUpModel.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\webToeic\\ToeicWeb.Server\\AuthService\\Models\\SignUpModel.cs",
+              "RelativeDocumentMoniker": "ToeicWeb.Server\\AuthService\\Models\\SignUpModel.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\webToeic\\ToeicWeb.Server\\AuthService\\Models\\SignUpModel.cs",
+              "RelativeToolTip": "ToeicWeb.Server\\AuthService\\Models\\SignUpModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T18:20:54.579Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\webToeic\\ToeicWeb.Server\\Program.cs",
+              "RelativeDocumentMoniker": "ToeicWeb.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\webToeic\\ToeicWeb.Server\\Program.cs",
+              "RelativeToolTip": "ToeicWeb.Server\\Program.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAgwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T17:34:53.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\webToeic\\ToeicWeb.Server\\AuthService\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ToeicWeb.Server\\AuthService\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\webToeic\\ToeicWeb.Server\\AuthService\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ToeicWeb.Server\\AuthService\\Controllers\\UserController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwCwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T17:26:36.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\webToeic\\ToeicWeb.Server\\AuthService\\Repository\\AccountRepository.cs",
+              "RelativeDocumentMoniker": "ToeicWeb.Server\\AuthService\\Repository\\AccountRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\webToeic\\ToeicWeb.Server\\AuthService\\Repository\\AccountRepository.cs",
+              "RelativeToolTip": "ToeicWeb.Server\\AuthService\\Repository\\AccountRepository.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T16:47:13.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IAccountRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\webToeic\\ToeicWeb.Server\\AuthService\\Interfaces\\IAccountRepository.cs",
+              "RelativeDocumentMoniker": "ToeicWeb.Server\\AuthService\\Interfaces\\IAccountRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\webToeic\\ToeicWeb.Server\\AuthService\\Interfaces\\IAccountRepository.cs",
+              "RelativeToolTip": "ToeicWeb.Server\\AuthService\\Interfaces\\IAccountRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T17:23:24.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppRole.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\webToeic\\ToeicWeb.Server\\AuthService\\Helper\\AppRole.cs",
+              "RelativeDocumentMoniker": "ToeicWeb.Server\\AuthService\\Helper\\AppRole.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\webToeic\\ToeicWeb.Server\\AuthService\\Helper\\AppRole.cs",
+              "RelativeToolTip": "ToeicWeb.Server\\AuthService\\Helper\\AppRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T17:13:24.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\webToeic\\ToeicWeb.Server\\AuthService\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ToeicWeb.Server\\AuthService\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\webToeic\\ToeicWeb.Server\\AuthService\\Models\\User.cs",
+              "RelativeToolTip": "ToeicWeb.Server\\AuthService\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T16:52:21.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\webToeic\\ToeicWeb.Server\\AuthService\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "ToeicWeb.Server\\AuthService\\Models\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\webToeic\\ToeicWeb.Server\\AuthService\\Models\\LoginModel.cs",
+              "RelativeToolTip": "ToeicWeb.Server\\AuthService\\Models\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T16:51:07.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\webToeic\\ToeicWeb.Server\\AuthService\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "ToeicWeb.Server\\AuthService\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\webToeic\\ToeicWeb.Server\\AuthService\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "ToeicWeb.Server\\AuthService\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAOkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T16:48:53.626Z",
+              "EditorCaption": ""
             }
           ]
         }
