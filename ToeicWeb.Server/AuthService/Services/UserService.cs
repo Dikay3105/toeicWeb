@@ -6,9 +6,9 @@ namespace ToeicWeb.Server.AuthService.Services
 {
     public class UserService
     {
-        private readonly UserDbContext _context;
+        private readonly AuthDbContext _context;
 
-        public UserService(UserDbContext context)
+        public UserService(AuthDbContext context)
         {
             _context = context;
         }
