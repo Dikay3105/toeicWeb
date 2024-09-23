@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "1FsPsRuYzEWXBC+o4/unoGWYB19BnBrWOQjf3Ejvm/o=",
+  "Hash": "r/r1T4Dn+g1TAySEIYkQSXy1cZMGP2AN8t0opRrl/LI=",
   "Source": "ToeicWeb.Server",
   "BasePath": "_content/ToeicWeb.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\PC\\source\\repos\\webToeic\\toeicweb.client\\toeicweb.client.esproj",
+      "Identity": "H:\\sinh\\Code\\toeicweb.client\\toeicweb.client.esproj",
       "Version": 2,
       "Source": "toeicweb.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",

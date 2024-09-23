@@ -26,6 +26,7 @@
 
   <ItemGroup>
     <Folder Include="AuthService\Repositories\" />
+    <Folder Include="ExamService\Interfaces\" />
   </ItemGroup>
 
 </Project>
