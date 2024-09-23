@@ -1,7 +1,7 @@
 import { useState } from "react";
-
+import { postLogin } from "../../../services/authService";
 const Login = () => {
-    const [email, setEmail] = useState("");
+    const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
     const [showPassword, setShowPassword] = useState(false);
 
@@ -10,19 +10,20 @@ const Login = () => {
         setShowPassword(!showPassword);
     };
 
-    // Handle login functionality
-    const handleLogin = () => {
-        if (!email || !password) {
-            alert("Please enter both email and password");
+    const handleLogin = async () => {
+        if (!username) {
+            alert("Email may not be blank");
             return;
         }
-
-        // Mock login process
-        if (email === "test@example.com" && password === "password123") {
-            alert("Logged in successfully!");
-            // Navigate to dashboard or homepage after login
-        } else {
-            alert("Invalid email or password");
+        if (!password) {
+            alert("Password may not be blank");
+            return;
+        }
+        let response = await postLogin(username, password);
+        if (response && response.EC === 0) {
+            alert("Login success");
+        } else if (response && response.EC !== 0) {
+            alert(response.EM);
         }
     };
 
@@ -46,12 +47,12 @@ const Login = () => {
                     <div className="form-group d-grid gap-2">
                         <label>Email</label>
                         <input
-                            type="email"
+                            type="text"
                             className="form-control"
                             placeholder="example@domain.com"
-                            onChange={(event) => setEmail(event.target.value)}
+                            onChange={(event) => setUsername(event.target.value)}
                             onKeyDown={(event) => handleKeyDown(event)}
-                            value={email}
+                            value={username}
                         />
                     </div>
                     <div className="form-group d-grid gap-2">
