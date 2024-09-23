@@ -55,7 +55,7 @@ namespace ToeicWeb.Server.AuthService.Controllers
 
         // POST: api/Auth/SignUp
         [HttpPost("SignUp")]
-        public async Task<IActionResult> SignUp([FromBody] User model)
+        public async Task<IActionResult> SignUp([FromBody] SignUpModel model)
         {
             // Kiểm tra xem người dùng đã tồn tại chưa
             var existingUser = await _accountRepository.GetUserByUsernameAsync(model.Username);

@@ -12,8 +12,8 @@ using ToeicWeb.Server.AuthService.Data;
 namespace ToeicWeb.Server.Migrations
 {
     [DbContext(typeof(AuthDbContext))]
-    [Migration("20240921154159_AddRefreshTokenToUser")]
-    partial class AddRefreshTokenToUser
+    [Migration("20240923062917_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -44,6 +44,40 @@ namespace ToeicWeb.Server.Migrations
                     b.HasKey("PermissionID");
 
                     b.ToTable("Permissions");
+                });
+
+            modelBuilder.Entity("ToeicWeb.Server.AuthService.Models.RefreshToken", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("char(36)");
+
+                    b.Property<DateTime>("ExpiredAt")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<bool>("IsRevoked")
+                        .HasColumnType("tinyint(1)");
+
+                    b.Property<bool>("IsUsed")
+                        .HasColumnType("tinyint(1)");
+
+                    b.Property<DateTime>("IssuedAt")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<string>("JwtId")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Token")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("refreshTokens");
                 });
 
             modelBuilder.Entity("ToeicWeb.Server.AuthService.Models.Role", b =>
@@ -117,10 +151,7 @@ namespace ToeicWeb.Server.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<DateTime?>("RefreshExpired")
-                        .HasColumnType("datetime(6)");
-
-                    b.Property<string>("RefreshToken")
+                    b.Property<string>("Salt")
                         .IsRequired()
                         .HasColumnType("longtext");
 
