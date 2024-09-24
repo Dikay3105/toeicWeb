@@ -6,6 +6,7 @@ namespace ToeicWeb.Server.ExamService.Interfaces
     {
         ICollection<Question> GetQuestions();
         Task<Question> GetQuestionById(int id);
+        Task<ICollection<Answer>> GetAnswerOfQuestion(int id);
         //Task DeleteQuestion(int id);
         //Task AddQuestion(int id);
     }

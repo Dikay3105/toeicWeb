@@ -130,6 +130,47 @@ namespace ToeicWeb.Server.AuthService.Controllers
             });
         }
 
+        //update user
+        [HttpPut]
+        public IActionResult UpdateUser([FromBody] UpdateUserModel model)
+        {
+            if (model == null)
+            {
+                return BadRequest(new { EC = -1, EM = "Invalid user data" });
+            }
+
+            // Kiểm tra sự tồn tại của người dùng
+            var checkExistUser = _userRepository.GetUsers()
+                .FirstOrDefault(u => u.UserID == model.UserID);
+
+            if (checkExistUser == null)
+            {
+                return NotFound(new { EC = -1, EM = "No user found" });
+            }
+
+            // Kiểm tra xem có thay đổi gì không
+            if (checkExistUser.FirstName == model.FirstName && checkExistUser.LastName == model.LastName)
+            {
+                return StatusCode(422, new { EC = -1, EM = "Nothing need to change" });
+            }
+
+            // Kiểm tra model có hợp lệ không
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            // Thực hiện cập nhật người dùng
+            if (!_userRepository.UpdateUser(model))
+            {
+                return StatusCode(500, new { EC = -1, EM = "Something went wrong when updating user" });
+            }
+
+            // Trả về thành công
+            return Ok(new { EC = 0, EM = "Successfully updated user" });
+        }
+
+
         // Delete user by ID
         //[HttpDelete("{id}")]
         //public async Task<IActionResult> DeleteUser(int id)

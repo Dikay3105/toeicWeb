@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:5173",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "C:\\Users\\huhuh\\source\\repos\\ToeicWeb\\ToeicWeb.Server\\..\\toeicweb.client",
+"WorkingDirectory": "C:\\Users\\PC\\source\\repos\\ToeicWeb\\ToeicWeb.Server\\..\\toeicweb.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

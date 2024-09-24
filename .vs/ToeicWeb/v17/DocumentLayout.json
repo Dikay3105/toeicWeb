@@ -1,54 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\huhuh\\source\\repos\\ToeicWeb\\",
+  "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\ToeicWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|c:\\users\\huhuh\\source\\repos\\toeicweb\\toeicweb.server\\authservice\\models\\signupmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|solutionrelative:toeicweb.server\\authservice\\models\\signupmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|c:\\users\\pc\\source\\repos\\toeicweb\\toeicweb.server\\examservice\\interfaces\\ipartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|solutionrelative:toeicweb.server\\examservice\\interfaces\\ipartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|c:\\users\\huhuh\\source\\repos\\toeicweb\\toeicweb.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|solutionrelative:toeicweb.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|c:\\users\\pc\\source\\repos\\toeicweb\\toeicweb.server\\examservice\\interfaces\\itestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|solutionrelative:toeicweb.server\\examservice\\interfaces\\itestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|c:\\users\\huhuh\\source\\repos\\toeicweb\\toeicweb.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|solutionrelative:toeicweb.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|c:\\users\\pc\\source\\repos\\toeicweb\\toeicweb.server\\examservice\\interfaces\\iquestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|solutionrelative:toeicweb.server\\examservice\\interfaces\\iquestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|c:\\users\\huhuh\\source\\repos\\toeicweb\\toeicweb.server\\authservice\\data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|solutionrelative:toeicweb.server\\authservice\\data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|c:\\users\\pc\\source\\repos\\toeicweb\\toeicweb.server\\examservice\\controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|solutionrelative:toeicweb.server\\examservice\\controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|c:\\users\\huhuh\\source\\repos\\toeicweb\\toeicweb.server\\authservice\\models\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|solutionrelative:toeicweb.server\\authservice\\models\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|c:\\users\\pc\\source\\repos\\toeicweb\\toeicweb.server\\examservice\\repository\\questionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|solutionrelative:toeicweb.server\\examservice\\repository\\questionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|c:\\users\\huhuh\\source\\repos\\toeicweb\\toeicweb.server\\authservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|solutionrelative:toeicweb.server\\authservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|c:\\users\\pc\\source\\repos\\toeicweb\\toeicweb.server\\authservice\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|solutionrelative:toeicweb.server\\authservice\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\huhuh\\source\\repos\\ToeicWeb\\ToeicWeb.Server\\Migrations\\20240923062009_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ToeicWeb.Server\\Migrations\\20240923062009_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|c:\\users\\huhuh\\source\\repos\\toeicweb\\toeicweb.server\\authservice\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|solutionrelative:toeicweb.server\\authservice\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|c:\\users\\huhuh\\source\\repos\\toeicweb\\toeicweb.server\\authservice\\repository\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|c:\\users\\pc\\source\\repos\\toeicweb\\toeicweb.server\\authservice\\repository\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|solutionrelative:toeicweb.server\\authservice\\repository\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|c:\\users\\huhuh\\source\\repos\\toeicweb\\toeicweb.server\\authservice\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|solutionrelative:toeicweb.server\\authservice\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|c:\\users\\huhuh\\source\\repos\\toeicweb\\toeicweb.server\\authservice\\interfaces\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|solutionrelative:toeicweb.server\\authservice\\interfaces\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|c:\\users\\huhuh\\source\\repos\\toeicweb\\toeicweb.server\\authservice\\helper\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E31B9DEA-9D96-423D-B60F-28731F413C4F}|ToeicWeb.Server\\ToeicWeb.Server.csproj|solutionrelative:toeicweb.server\\authservice\\helper\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,158 +38,98 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\huhuh\\source\\repos\\ToeicWeb\\ToeicWeb.Server\\appsettings.json",
-              "RelativeDocumentMoniker": "ToeicWeb.Server\\appsettings.json",
-              "ToolTip": "C:\\Users\\huhuh\\source\\repos\\ToeicWeb\\ToeicWeb.Server\\appsettings.json",
-              "RelativeToolTip": "ToeicWeb.Server\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-23T07:28:16.242Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\huhuh\\source\\repos\\ToeicWeb\\ToeicWeb.Server\\AuthService\\Data\\AuthDbContext.cs",
-              "RelativeDocumentMoniker": "ToeicWeb.Server\\AuthService\\Data\\AuthDbContext.cs",
-              "ToolTip": "C:\\Users\\huhuh\\source\\repos\\ToeicWeb\\ToeicWeb.Server\\AuthService\\Data\\AuthDbContext.cs",
-              "RelativeToolTip": "ToeicWeb.Server\\AuthService\\Data\\AuthDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T06:28:12.336Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RefreshToken.cs",
-              "DocumentMoniker": "C:\\Users\\huhuh\\source\\repos\\ToeicWeb\\ToeicWeb.Server\\AuthService\\Models\\RefreshToken.cs",
-              "RelativeDocumentMoniker": "ToeicWeb.Server\\AuthService\\Models\\RefreshToken.cs",
-              "ToolTip": "C:\\Users\\huhuh\\source\\repos\\ToeicWeb\\ToeicWeb.Server\\AuthService\\Models\\RefreshToken.cs",
-              "RelativeToolTip": "ToeicWeb.Server\\AuthService\\Models\\RefreshToken.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T06:23:47.023Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "20240923062009_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\huhuh\\source\\repos\\ToeicWeb\\ToeicWeb.Server\\Migrations\\20240923062009_InitialCreate.cs",
-              "RelativeDocumentMoniker": "ToeicWeb.Server\\Migrations\\20240923062009_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\huhuh\\source\\repos\\ToeicWeb\\ToeicWeb.Server\\Migrations\\20240923062009_InitialCreate.cs",
-              "RelativeToolTip": "ToeicWeb.Server\\Migrations\\20240923062009_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T06:20:10.345Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SignUpModel.cs",
-              "DocumentMoniker": "C:\\Users\\huhuh\\source\\repos\\ToeicWeb\\ToeicWeb.Server\\AuthService\\Models\\SignUpModel.cs",
-              "RelativeDocumentMoniker": "ToeicWeb.Server\\AuthService\\Models\\SignUpModel.cs",
-              "ToolTip": "C:\\Users\\huhuh\\source\\repos\\ToeicWeb\\ToeicWeb.Server\\AuthService\\Models\\SignUpModel.cs",
-              "RelativeToolTip": "ToeicWeb.Server\\AuthService\\Models\\SignUpModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Title": "IPartRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\ToeicWeb\\ToeicWeb.Server\\ExamService\\Interfaces\\IPartRepository.cs",
+              "RelativeDocumentMoniker": "ToeicWeb.Server\\ExamService\\Interfaces\\IPartRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\ToeicWeb\\ToeicWeb.Server\\ExamService\\Interfaces\\IPartRepository.cs",
+              "RelativeToolTip": "ToeicWeb.Server\\ExamService\\Interfaces\\IPartRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T18:20:54.579Z",
+              "WhenOpened": "2024-09-24T04:16:39.199Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\huhuh\\source\\repos\\ToeicWeb\\ToeicWeb.Server\\Program.cs",
-              "RelativeDocumentMoniker": "ToeicWeb.Server\\Program.cs",
-              "ToolTip": "C:\\Users\\huhuh\\source\\repos\\ToeicWeb\\ToeicWeb.Server\\Program.cs",
-              "RelativeToolTip": "ToeicWeb.Server\\Program.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAowFAAAAAaAAAAAAAAAA==",
+              "Title": "ITestRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\ToeicWeb\\ToeicWeb.Server\\ExamService\\Interfaces\\ITestRepository.cs",
+              "RelativeDocumentMoniker": "ToeicWeb.Server\\ExamService\\Interfaces\\ITestRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\ToeicWeb\\ToeicWeb.Server\\ExamService\\Interfaces\\ITestRepository.cs",
+              "RelativeToolTip": "ToeicWeb.Server\\ExamService\\Interfaces\\ITestRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T17:34:53.585Z",
+              "WhenOpened": "2024-09-24T04:12:29.696Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\huhuh\\source\\repos\\ToeicWeb\\ToeicWeb.Server\\AuthService\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "ToeicWeb.Server\\AuthService\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\huhuh\\source\\repos\\ToeicWeb\\ToeicWeb.Server\\AuthService\\Controllers\\UserController.cs",
-              "RelativeToolTip": "ToeicWeb.Server\\AuthService\\Controllers\\UserController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwCwAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "AccountRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\ToeicWeb\\ToeicWeb.Server\\AuthService\\Repository\\AccountRepository.cs",
+              "RelativeDocumentMoniker": "ToeicWeb.Server\\AuthService\\Repository\\AccountRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\ToeicWeb\\ToeicWeb.Server\\AuthService\\Repository\\AccountRepository.cs",
+              "RelativeToolTip": "ToeicWeb.Server\\AuthService\\Repository\\AccountRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T17:26:36.829Z"
+              "WhenOpened": "2024-09-24T03:58:12.537Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\huhuh\\source\\repos\\ToeicWeb\\ToeicWeb.Server\\AuthService\\Models\\User.cs",
-              "RelativeDocumentMoniker": "ToeicWeb.Server\\AuthService\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\huhuh\\source\\repos\\ToeicWeb\\ToeicWeb.Server\\AuthService\\Models\\User.cs",
-              "RelativeToolTip": "ToeicWeb.Server\\AuthService\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\ToeicWeb\\ToeicWeb.Server\\AuthService\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "ToeicWeb.Server\\AuthService\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\ToeicWeb\\ToeicWeb.Server\\AuthService\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "ToeicWeb.Server\\AuthService\\Repository\\UserRepository.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T16:52:21.088Z"
+              "WhenOpened": "2024-09-24T03:58:06.048Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AccountRepository.cs",
-              "DocumentMoniker": "C:\\Users\\huhuh\\source\\repos\\ToeicWeb\\ToeicWeb.Server\\AuthService\\Repository\\AccountRepository.cs",
-              "RelativeDocumentMoniker": "ToeicWeb.Server\\AuthService\\Repository\\AccountRepository.cs",
-              "ToolTip": "C:\\Users\\huhuh\\source\\repos\\ToeicWeb\\ToeicWeb.Server\\AuthService\\Repository\\AccountRepository.cs",
-              "RelativeToolTip": "ToeicWeb.Server\\AuthService\\Repository\\AccountRepository.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowBIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "QuestionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\ToeicWeb\\ToeicWeb.Server\\ExamService\\Repository\\QuestionRepository.cs",
+              "RelativeDocumentMoniker": "ToeicWeb.Server\\ExamService\\Repository\\QuestionRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\ToeicWeb\\ToeicWeb.Server\\ExamService\\Repository\\QuestionRepository.cs",
+              "RelativeToolTip": "ToeicWeb.Server\\ExamService\\Repository\\QuestionRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwB8AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T16:47:13.188Z"
+              "WhenOpened": "2024-09-24T03:57:21.146Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IAccountRepository.cs",
-              "DocumentMoniker": "C:\\Users\\huhuh\\source\\repos\\ToeicWeb\\ToeicWeb.Server\\AuthService\\Interfaces\\IAccountRepository.cs",
-              "RelativeDocumentMoniker": "ToeicWeb.Server\\AuthService\\Interfaces\\IAccountRepository.cs",
-              "ToolTip": "C:\\Users\\huhuh\\source\\repos\\ToeicWeb\\ToeicWeb.Server\\AuthService\\Interfaces\\IAccountRepository.cs",
-              "RelativeToolTip": "ToeicWeb.Server\\AuthService\\Interfaces\\IAccountRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "IQuestionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\ToeicWeb\\ToeicWeb.Server\\ExamService\\Interfaces\\IQuestionRepository.cs",
+              "RelativeDocumentMoniker": "ToeicWeb.Server\\ExamService\\Interfaces\\IQuestionRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\ToeicWeb\\ToeicWeb.Server\\ExamService\\Interfaces\\IQuestionRepository.cs",
+              "RelativeToolTip": "ToeicWeb.Server\\ExamService\\Interfaces\\IQuestionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T17:23:24.206Z"
+              "WhenOpened": "2024-09-24T03:45:51.448Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AppRole.cs",
-              "DocumentMoniker": "C:\\Users\\huhuh\\source\\repos\\ToeicWeb\\ToeicWeb.Server\\AuthService\\Helper\\AppRole.cs",
-              "RelativeDocumentMoniker": "ToeicWeb.Server\\AuthService\\Helper\\AppRole.cs",
-              "ToolTip": "C:\\Users\\huhuh\\source\\repos\\ToeicWeb\\ToeicWeb.Server\\AuthService\\Helper\\AppRole.cs",
-              "RelativeToolTip": "ToeicWeb.Server\\AuthService\\Helper\\AppRole.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "QuestionController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\ToeicWeb\\ToeicWeb.Server\\ExamService\\Controllers\\QuestionController.cs",
+              "RelativeDocumentMoniker": "ToeicWeb.Server\\ExamService\\Controllers\\QuestionController.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\ToeicWeb\\ToeicWeb.Server\\ExamService\\Controllers\\QuestionController.cs",
+              "RelativeToolTip": "ToeicWeb.Server\\ExamService\\Controllers\\QuestionController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAgwF4AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T17:13:24.25Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\huhuh\\source\\repos\\ToeicWeb\\ToeicWeb.Server\\AuthService\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "ToeicWeb.Server\\AuthService\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\huhuh\\source\\repos\\ToeicWeb\\ToeicWeb.Server\\AuthService\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "ToeicWeb.Server\\AuthService\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAmwDkAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T16:48:53.626Z"
+              "WhenOpened": "2024-09-24T03:43:38.409Z",
+              "EditorCaption": ""
             }
           ]
         }

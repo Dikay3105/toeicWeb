@@ -33,6 +33,32 @@ namespace ToeicWeb.Server.AuthService.Repository
             return Save();
         }
 
+        public bool UpdateUser(UpdateUserModel model)
+        {
+            // Lấy thông tin người dùng dựa trên UserID
+            var existingUser = _context.Users.FirstOrDefault(u => u.UserID == model.UserID);
+
+            if (existingUser == null)
+            {
+                // Nếu không tìm thấy người dùng, trả về false
+                return false;
+            }
+
+            // Cập nhật các thuộc tính (chỉ cập nhật nếu giá trị mới không null)
+            existingUser.FirstName = model.FirstName ?? existingUser.FirstName;
+            existingUser.LastName = model.LastName ?? existingUser.LastName;
+            // Cập nhật thêm các thuộc tính khác nếu có...
+
+            // Cập nhật đối tượng người dùng
+            _context.Users.Update(existingUser);
+
+            // Lưu thay đổi vào cơ sở dữ liệu
+            return Save();
+        }
+
+
+
+
         public bool Save()
         {
             var saved = _context.SaveChanges();

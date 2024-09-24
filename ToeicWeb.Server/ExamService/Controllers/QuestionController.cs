@@ -61,5 +61,45 @@ namespace ToeicWeb.Server.ExamService.Controllers
             }); // Return the found user
         }
 
+        // API endpoint để lấy câu trả lời của câu hỏi theo id
+        [HttpGet("question/{id}")]
+        public async Task<IActionResult> GetAnswersOfQuestion(int id)
+        {
+            // Gọi phương thức trong repository để lấy câu trả lời
+            var question = await _questionRepository.GetQuestionById(id);
+            if (question == null)
+            {
+                return NotFound(new
+                {
+                    EC = -1,
+                    EM = "No question found for the given question ID."
+                });
+            }
+
+            var answers = await _questionRepository.GetAnswerOfQuestion(id);
+
+            // Kiểm tra nếu không có câu trả lời nào
+            if (answers == null || !answers.Any())
+            {
+                return NotFound(new
+                {
+                    EC = -1,
+                    EM = "No answers found for the given question ID."
+                });
+            }
+
+            // Trả về danh sách câu trả lời
+            return Ok(new
+            {
+                EC = 0,
+                EM = "Get answer of questionId=" + id + " success",
+                DT = new
+                {
+                    question = question,
+                    answers = answers
+                }
+            });
+        }
+
     }
 }

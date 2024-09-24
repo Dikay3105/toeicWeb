@@ -53,7 +53,7 @@ namespace ToeicWeb.Server.AuthService.Controllers
         }
 
 
-        // POST: api/Auth/SignUp
+        // POST: api/Account/SignUp
         [HttpPost("SignUp")]
         public async Task<IActionResult> SignUp([FromBody] SignUpModel model)
         {

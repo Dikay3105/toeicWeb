@@ -1,4 +1,5 @@
-﻿using ToeicWeb.Server.ExamService.Data;
+﻿using Microsoft.EntityFrameworkCore;
+using ToeicWeb.Server.ExamService.Data;
 using ToeicWeb.Server.ExamService.Interfaces;
 using ToeicWeb.Server.ExamService.Models;
 
@@ -23,5 +24,15 @@ namespace ToeicWeb.Server.ExamService.Repository
         {
             return await _context.Questions.FindAsync(id);
         }
+
+        public async Task<ICollection<Answer>> GetAnswerOfQuestion(int id)
+        {
+            var answers = await _context.Answers
+                                        .Where(a => a.QuestionID == id)
+                                        .ToListAsync();
+
+            return answers;
+        }
+
     }
 }

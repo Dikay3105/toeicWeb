@@ -1,2 +1,3 @@
 C:\Users\huhuh\source\repos\ToeicWeb\toeicweb.client\obj\Debug\toeicweb.client.esproj.CoreCompileInputs.cache
 C:\Users\PC\source\repos\webToeic\toeicweb.client\obj\Debug\toeicweb.client.esproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\ToeicWeb\toeicweb.client\obj\Debug\toeicweb.client.esproj.CoreCompileInputs.cache
