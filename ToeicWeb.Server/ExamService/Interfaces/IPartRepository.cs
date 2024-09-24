@@ -6,6 +6,6 @@ namespace ToeicWeb.Server.ExamService.Interfaces
     {
         ICollection<Part> GetParts();
         Task<Part> GetPartById(int id);
-        Task<ICollection<Part>> GetPartOfQuestion(int id);
+        Task<ICollection<Question>> GetQuestionOfPart(int id);
     }
 }

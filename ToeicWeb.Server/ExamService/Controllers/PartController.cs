@@ -7,23 +7,23 @@ namespace ToeicWeb.Server.ExamService.Controllers
 {
     [Route("/api/[controller]")]
     [ApiController]
-    public class QuestionController : Controller
+    public class PartController : Controller
     {
-        private readonly IQuestionRepository _questionRepository;
+        private readonly IPartRepository _partRepository;
         private readonly ExamDbContext _context;
 
-        public QuestionController(IQuestionRepository questionRepository, ExamDbContext context)
+        public PartController(IPartRepository partRepository, ExamDbContext context)
         {
-            _questionRepository = questionRepository;
+            _partRepository = partRepository;
             _context = context;
         }
 
         //Get all question
         [HttpGet]
         [ProducesResponseType(200, Type = typeof(IEnumerable<Question>))]
-        public IActionResult GetQuestions()
+        public IActionResult GetParts()
         {
-            var question = _questionRepository.GetQuestions();
+            var part = _partRepository.GetParts();
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
@@ -31,17 +31,17 @@ namespace ToeicWeb.Server.ExamService.Controllers
             return Ok(new
             {
                 EC = 0,
-                EM = "Get all questions success",
-                DT = question
+                EM = "Get all parts success",
+                DT = part
             });
         }
 
-        // Get question by ID
+        // Get part by ID
         [HttpGet("{id}")]
-        public async Task<ActionResult<Question>> GetQuestionById(int id)
+        public async Task<ActionResult<Part>> GetPartById(int id)
         {
-            var question = await _questionRepository.GetQuestionById(id);
-            if (question == null)
+            var part = await _partRepository.GetPartById(id);
+            if (part == null)
             {
                 return NotFound(new
                 {
@@ -55,18 +55,18 @@ namespace ToeicWeb.Server.ExamService.Controllers
             return Ok(new
             {
                 EC = 0,  // Error Code
-                EM = "Get question by id success",
-                DT = question  // Data (can be an empty string or message)
+                EM = "Get part by id success",
+                DT = part  // Data (can be an empty string or message)
 
             }); // Return the found user
         }
 
-        // API endpoint để lấy câu trả lời của câu hỏi theo id
+        // API endpoint để part của test
         [HttpGet("question/{id}")]
         public async Task<IActionResult> GetAnswersOfQuestion(int id)
         {
             // Gọi phương thức trong repository để lấy câu trả lời
-            var question = await _questionRepository.GetQuestionById(id);
+            var question = await _partRepository.GetPartById(id);
             if (question == null)
             {
                 return NotFound(new
@@ -76,7 +76,7 @@ namespace ToeicWeb.Server.ExamService.Controllers
                 });
             }
 
-            var answers = await _questionRepository.GetAnswerOfQuestion(id);
+            var answers = await _partRepository.GetQuestionOfPart(id);
 
             // Kiểm tra nếu không có câu trả lời nào
             if (answers == null || !answers.Any())
@@ -95,10 +95,11 @@ namespace ToeicWeb.Server.ExamService.Controllers
                 EM = "Get answer of questionId=" + id + " success",
                 DT = new
                 {
-                    question = question,
-                    answers = answers
+                    part = question,
+                    question = answers
                 }
             });
         }
+
     }
 }

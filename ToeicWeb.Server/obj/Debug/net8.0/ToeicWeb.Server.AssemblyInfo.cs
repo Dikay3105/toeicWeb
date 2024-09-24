@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ToeicWeb.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e982859e8fa1d6f2248483573953bae6e2a82cf4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+03477512c757e77e91e17e524af89ae66fbbbebf")]
 [assembly: System.Reflection.AssemblyProductAttribute("ToeicWeb.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ToeicWeb.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
