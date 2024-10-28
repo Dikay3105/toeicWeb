@@ -1,4 +1,5 @@
-﻿using ToeicWeb.Server.AuthService.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using ToeicWeb.Server.FeedbackService.Models;
 
 namespace ToeicWeb.Server.AuthService.Data
 {
