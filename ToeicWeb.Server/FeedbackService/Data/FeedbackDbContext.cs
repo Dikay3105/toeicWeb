@@ -11,5 +11,11 @@ namespace ToeicWeb.Server.AuthService.Data
 		}
 
 		public DbSet<Comment> Comments { get; set; }
+
+		protected override void OnModelCreating(ModelBuilder modelBuilder)
+		{
+			modelBuilder.Entity<Comment>()
+				.HasKey(a => a.UserID);
+		}
 	}
 }
