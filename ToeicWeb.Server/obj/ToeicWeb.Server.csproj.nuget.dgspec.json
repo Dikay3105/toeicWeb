@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\KHOA\\NetCore\\DoAn\\ToeicWeb.Server\\ToeicWeb.Server.csproj": {}
+    "D:\\KHOA\\NetCore\\DoAn\\toeicWeb\\ToeicWeb.Server\\ToeicWeb.Server.csproj": {}
   },
   "projects": {
-    "D:\\KHOA\\NetCore\\DoAn\\ToeicWeb.Server\\ToeicWeb.Server.csproj": {
+    "D:\\KHOA\\NetCore\\DoAn\\toeicWeb\\ToeicWeb.Server\\ToeicWeb.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\KHOA\\NetCore\\DoAn\\ToeicWeb.Server\\ToeicWeb.Server.csproj",
+        "projectUniqueName": "D:\\KHOA\\NetCore\\DoAn\\toeicWeb\\ToeicWeb.Server\\ToeicWeb.Server.csproj",
         "projectName": "ToeicWeb.Server",
-        "projectPath": "D:\\KHOA\\NetCore\\DoAn\\ToeicWeb.Server\\ToeicWeb.Server.csproj",
+        "projectPath": "D:\\KHOA\\NetCore\\DoAn\\toeicWeb\\ToeicWeb.Server\\ToeicWeb.Server.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\KHOA\\NetCore\\DoAn\\ToeicWeb.Server\\obj\\",
+        "outputPath": "D:\\KHOA\\NetCore\\DoAn\\toeicWeb\\ToeicWeb.Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,12 +43,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore.Design": {
-              "target": "Package",
-              "version": "[8.0.10, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
