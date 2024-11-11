@@ -23,6 +23,10 @@ builder.Services.AddDbContext<UserDbContext>(options =>
     options.UseMySql(builder.Configuration.GetConnectionString("UserServiceConnection"),
     new MySqlServerVersion(new Version(8, 0, 21))));
 
+builder.Services.AddDbContext<FeedbackDbContext>(options =>
+	options.UseMySql(builder.Configuration.GetConnectionString("FeedbackServiceConnection"),
+	new MySqlServerVersion(new Version(8, 0, 21))));
+
 builder.Services.AddScoped<UserService>();
 builder.Services.AddScoped<IQuestionRepository, QuestionRepository>();
 builder.Services.AddControllers()
@@ -65,6 +69,14 @@ app.MapWhen(context => context.Request.Path.StartsWithSegments("/user"), appBuil
     {
         endpoints.MapControllers();
     });
+});
+
+app.MapWhen(context => context.Request.Path.StartsWithSegments("/feedback"), appBuilder =>
+{
+	appBuilder.UseEndpoints(endpoints =>
+	{
+		endpoints.MapControllers();
+	});
 });
 
 app.Run();
